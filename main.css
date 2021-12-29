@@ -1,0 +1,714 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px 0px 15px 0px;
+}
+
+.top-nav-bar {
+  background: #192a56;
+  width: 100%;
+  height: cover;
+  justify-content: space-around;
+  font-weight: 60px;
+}
+.top-nav-bar-heading {
+  color: white;
+  font-size: large;
+}
+div .top-nav-bar-img {
+  width: 30%;
+}
+.telephone-no {
+  color: white;
+}
+.telephone-div {
+  display: flex;
+}
+/* .message-logo, .twitter-logo, .facebook-logo{
+    background: white;
+} */
+.top-nav-bar-li {
+  display: inline;
+  background-color: white;
+  height: 20px;
+  width: 20px;
+}
+
+/*   ## section nav bar     */
+.dropbtn {
+  background-color: #ffff;
+  color: rgb(0, 0, 0);
+  padding: 16px;
+  font-size: 11px;
+  border: none;
+  cursor: pointer;
+  height: 67px;
+  display: flex;
+}
+.ul-dropdown {
+  display: flex;
+  margin-top: 12px;
+  justify-content: center;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.arrow-down {
+  margin: 0px 2px 0px 2px;
+}
+.hc4a-logo-img {
+  width: 88px;
+  height: 88px;
+  position: absolute;
+  top: -15px;
+  /* justify-content: center; */
+  /* left: 519px; */
+  /* text-align: center; */
+}
+
+.programes-li {
+  margin-left: 117px;
+}
+
+    /* #### banner section ####  */
+.banner-background-img {
+  width: 100%;
+}
+
+div .service-learn {
+  position: absolute;
+  top: 183px;
+  background: rgba(47, 47, 47, 0.6);
+  box-shadow: 0px 0px 15px 5px rgb(255 211 42 / 40%);
+  min-width: 764px;
+  z-index: 1;
+  margin-left: 144px;
+  padding: 0px 21px;
+}
+.service-learn p {
+  font-weight: normal;
+  font-size: 18px;
+  padding: 34px 0px;
+  color: white;
+}
+.service-heading {
+  padding-top: 31px;
+  color: #ffd32a;
+}
+.register-btn {
+  height: 50px;
+  width: 146px;
+  background: #971723;
+  color: white;
+  margin-bottom: 31px;
+}
+/*     ##  pamasone section ##      */
+.pamasone {
+  background-color: #ffffff;
+  justify-content: center;
+  text-align: center;
+}
+.button-1 {
+  background-color: #253f7f;
+  height: 70px;
+  border: none;
+  padding: 15px 26px;
+  min-width: 80px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+.button-2 {
+  background-color: #971723;
+  height: 70px;
+  border: none;
+  padding: 15px 26px;
+  min-width: 80px;
+  font-weight: bold;
+  margin: 0px 5px;
+}
+.button-3 {
+  background-color: #718093;
+  height: 70px;
+  border: none;
+  padding: 15px 26px;
+  min-width: 80px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+.button-1,
+.button-2,
+.button-3 {
+  color: white;
+}
+.pamasone p {
+  font-size: 20px;
+  padding: 45px 0px 15px 0px;
+  font-weight: bold;
+}
+.pamasone-button {
+  margin: 0px 0px 45px 0px;
+}
+button {
+  padding: 10px;
+}
+
+/*   ####  about section   ####     */
+
+.about-section-banner {
+  height: 404px;
+  width: 615px;
+  /* right: 0px; */
+}
+.about-section-bann {
+  text-align: right;
+}
+.about-section {
+  position: relative;
+}
+.about-sub-section {
+  position: absolute;
+  top: 40px;
+  font-size: 20px;
+}
+.how-HC4A {
+  position: relative;
+  background: rgba(255, 255, 255, 0.6);
+  box-shadow: -1px 2px 5px 2px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  width: 692px;
+  left: 67px;
+  padding: 35px;
+  top: -25px;
+}
+.heading-about-hc4a {
+  font-size: 20px;
+}
+.about-section-btn {
+  background: #971723;
+  color: white;
+  font-size: 18px;
+  margin-top: 20px;
+}
+/*      #### support the section ####     */
+/* .support-the-student{
+    display: flex;
+} */
+.support-the-student-sec-1 {
+  width: 50%;
+  float: left;
+}
+.support-the-student-sec-2 {
+  width: 50%;
+  float: right;
+  background: #253f7f;
+  padding: 36px;
+}
+.support-the-student-sec-1-img {
+  width: 100%;
+  height: 100%;
+}
+
+/*      ####   support the section - 2     ####*/
+.support-the-student {
+  display: flex;
+}
+.support-the-student-sec-2-1 {
+  width: 50%;
+  float: right;
+  background: #253f7f;
+  padding: 36px;
+}
+.support-the-student-sec-2-2 {
+  width: 50%;
+  float: left;
+  background: #c4c4c4;
+}
+.support-the-student-sec-2-img {
+  width: 100%;
+  height: 68%;
+}
+
+.support-the-para{
+    color: #ffffff;
+}
+.support-the-btn{
+  color: white;
+}
+.support-the-heading {
+  font-size: 24px;
+  color: white;
+}
+.support-the-btn {
+  background: #971723;
+}
+
+/* #### New Artical ####  */
+.news-artical,
+.news-artical-para {
+  text-align: center;
+}
+.news-artical {
+  margin-top: 12px;
+}
+.news-artical-view-more-btn-div {
+  margin-bottom: 32px;
+}
+.news-artical {
+  color: #253f7f;
+  font-size: 33px;
+  padding: 24px;
+}
+.news-artical-para {
+  font-size: 19px;
+}
+
+/* #### cards ##### */
+.cards {
+  width: 30%;
+  padding: 33px 12px;
+}
+
+.all-cards {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.cards-border {
+  background: #c4c4c4;
+}
+.card-title {
+  font-size: 19px;
+  padding: 8px 35px;
+}
+.card-para {
+  font-size: 18px;
+  padding: 12px 8px;
+}
+.card-img {
+  width: 100%;
+}
+.card-text {
+  font-size: 20px;
+  padding: 8px 35px;
+}
+.learn-more-card-btn {
+  font-size: 19px;
+  background: #253f7f;
+  color: #ffff;
+  margin-left: 38px;
+  padding: 12px;
+}
+.learn-more-card-btn-div {
+  padding: 15px 0px;
+  text-align: left;
+}
+.card-hr {
+  border: 1px solid #ffd32a;
+}
+.news-artical-view-more-btn {
+  font-size: 18px;
+  background: #971723;
+  color: #ffffff;
+  padding: 12px 20px;
+}
+.news-artical-view-more-btn-div {
+  text-align: center;
+}
+
+/* ######     donate  Section     ####### */
+
+.scollarship-background {
+  background: url("./logos/Rectangle\ 24.png");
+  width: 100%;
+  text-align: center;
+}
+/* .scollarship-div{
+    background: url("./logos/Rectangle\ 24.png");
+    width: 100%;
+    height: 100%;
+} */
+
+.scollar-ship-donate-btn {
+  background-color: #487eb0;
+  border: none;
+  padding: 13px 45px;
+  color: white;
+  font-size: 22px;
+  margin: 38px;
+  padding: 24px 60px;
+}
+
+.scollar-ship-donate-btn-div {
+  padding-bottom: 40px;
+}
+.scollarship-head {
+  padding-top: 54px;
+  color: #ffffff;
+  font-size: 30px;
+}
+.scollarship-para {
+  padding-top: 41px;
+  font-size: 22px;
+  color: #ffffff;
+}
+/*       // ****** ** // * /         awards   ###########  */
+.awards-heading-div {
+  text-align: center;
+}
+.awards-heading {
+  color: #971723;
+  font-size: 32px;
+  padding: 46px 0px;
+}
+.president-award {
+  width: 25%;
+  border: 2px solid rgb(11, 151, 206);
+  padding: 12px;
+}
+.award-year-div {
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+}
+.award-year-li {
+  margin: 12px 12px;
+  display: inline;
+}
+.award-year-li-img{
+    border: 1px solid #971723;
+    margin-top: 21px;
+}
+.award-year-li-button{
+    margin-top: 21px;
+}
+.president-award-img {
+  width: 100%;
+}
+.president-card-background {
+  background: #c4c4c4;
+  padding: 15px;
+}
+.award-card-title {
+  font-size: 19px;
+  padding: 18px 0px;
+}
+.award-year-ul{
+  padding: 25px;
+  list-style: none;
+  text-align: center;
+  justify-content: center;
+}
+.award-section{
+    display: flex;
+    align-items: center;
+    margin-bottom: 36px;;
+}
+.award-view-more-btn{
+    background: #253f7f;
+    color: #ffffff;
+    
+}
+
+/*       //*******/ /*/                UP Coming Event             */
+
+.Up-Coming-event-main-div {
+  background: #f1f1f1;
+  text-align: center;
+  font-size: 25px;
+}
+.Up-Coming-event {
+  color: #971723;
+  padding-top: 49px;
+}
+.Up-Coming-event-para {
+  font-weight: bold;
+  font-size: 19px;
+}
+.event-card-img {
+  width: 100%;
+}
+.event-para {
+  margin: 25px 0px;
+  font-size: 19px;
+}
+.event-time {
+  height: 56px;
+  background: rgba(0, 0, 0, 0.71);
+  position: relative;
+  margin-top: -66px;
+  font-size: bold;
+  font-weight: bold;
+  border-radius: 0px 0px 20px 20px;
+  padding-top: 19px;
+  padding-left: 0px;
+  color: #ffff;
+  font-size: 27px;
+}
+button .up-coming-learn-more-btn {
+  color: #253f7f;
+}
+.event-view-more-btn {
+  text-align: center;
+  padding: 36px 0px;
+}
+.online-card-btn {
+  position: absolute;
+  top: 40px;
+  margin-left: 22px;
+  background: #971723;
+  border: none;
+  color: #ffff;
+  font-size: 12px;
+}
+.online-card-btn-div {
+  text-align: left;
+}
+.event-view-more-btn-div {
+  padding-bottom: 30px;
+}
+.cards {
+  display: flex;
+}
+.event-card-div {
+  padding: 10px;
+  position: relative;
+}
+.event-view-more-btn {
+  font-size: 18px;
+  background: #971723;
+  color: #ffffff;
+  padding: 12px 20px;
+}
+/* ######   footer ###### */
+.footer {
+  display: flex;
+  text-align: center;
+  justify-items: center;
+  background: #c4c4c4;
+}
+.footer-img-div {
+  width: 21%;
+  float: left;
+  margin: 21px 0px;
+}
+.footer-list-div {
+  width: 57%;
+  font-size: 21px;
+  float: right;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.ul-list {
+  list-style: none;
+  display: flex;
+}
+.li-list {
+  padding-left: 10px;
+  right: 10px;
+  border-left: 1px solid #971723;
+  padding: 0px 12px;
+}
+.li-list:first-child {
+  border-left: none;
+}
+/* .list-li{
+    font-weight: bold;
+    font-size: 17px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+} */
+.fotter-para-div {
+  border-top: 2px solid #971723;
+  justify-content: center;
+  margin-top: 4px;
+}
+.fotter-para {
+  font-size: 22px;
+  text-align: center;
+  font-weight: normal;
+  padding: 0px 230px;
+}
+
+/* ##-----##--- For Responsive ---## -----## */
+/* for laptop */
+@media (max-width: 992px){
+
+    /* banner section */
+    .about-section-banner {
+        height: 404px;
+        width: 100%;
+        /* right: 0px; */
+    }
+    .how-HC4A {
+        position: relative;
+        background: rgba(255, 255, 255, 0.6);
+        box-shadow: -1px 2px 5px 2px rgb(0 0 0 / 10%);
+        z-index: 1;
+        width: 702px;
+        left: 135px;
+        padding: 35px;
+        top: -34px;
+        font-size: 22px;
+    }
+    .president-award {
+        width: 28%;
+        border: 2px solid rgb(11, 151, 206);
+        padding: 12px;
+    }
+    .award-para{
+        font-size: 22px;
+    }
+    .service-learn p {
+        font-weight: normal;
+        font-size: 22px;
+        padding: 34px 0px;
+        color: white;
+    }
+    div .service-learn {
+        position: absolute;
+        top: 175px;
+        background: rgba(47, 47, 47, 0.6);
+        box-shadow: 0px 0px 15px 5px rgb(255 211 42 / 40%);
+        min-width: 764px;
+        z-index: 1;
+        margin-left: 69px;
+        padding: 0px 21px;
+    }
+    .register-btn {
+        height: 50px;
+        width: 146px;
+        background: #971723;
+        color: white;
+        margin-bottom: 31px;
+        font-size: 15px;
+    }
+    .support-the-para{
+        font-size: 19px;
+    }
+    /* ### -- ### award section ### -- ### */
+    .president-award {
+        width: 50%;
+        border: 2px solid rgb(11, 151, 206);
+        padding: 12px;
+    }
+    .award-year-ul {
+        padding: 25px;
+        list-style: none;
+        /* text-align: center; */
+        justify-content: center;
+    }
+    /* ### scollarship ### */
+    .scollar-ship-donate-btn {
+        background-color: #487eb0;
+        border: none;
+        padding: 13px 45px;
+        color: white;
+        font-size: 20px;
+        margin: 22px;
+        padding: 22px 51px;
+    }
+    .scollarship-head {
+        padding-top: 39px;
+        color: #ffffff;
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 556px){
+    .banner-background-img {
+        width: 100%;
+        /* height: 100%; */
+        height: 311px;
+    }
+    .service-learn p {
+        font-weight: normal;
+        font-size: 24px;
+        padding: 13px 0px;
+        color: white;
+        display: flex;
+    }
+    div .service-learn {
+        position: absolute;
+        top: 136px;
+        background: rgba(47, 47, 47, 0.6);
+        box-shadow: 0px 0px 15px 5px rgb(255 211 42 / 40%);
+        min-width: 557px;
+        z-index: 1;
+        margin-left: 0px;
+        padding: 0px 21px;
+    }
+    .service-heading {
+        padding-top: 13px;
+        color: #ffd32a;
+    }
+
+    .how-HC4A {
+        position: relative;
+        background: rgba(255, 255, 255, 0.6);
+        box-shadow: -1px 2px 5px 2px rgb(0 0 0 / 10%);
+        z-index: 1;
+        width: 556px;
+        left: 0px;
+        padding: 35px;
+        top: -41px;
+        font-size: 22px;
+    }
+    .about-section-banner {
+        height: 469px;
+        width: 100%;
+        /* right: 0px; */
+    }
+    /* footer */ 
+    .ul-list {
+        list-style: none;
+        display: inline-block;
+    }
+    .li-list {
+        padding-left: 10px;
+        right: 10px;
+        border-left:none;
+        padding: 4px 12px;
+        font-weight: bold;
+    }
+    .fotter-para {
+        font-size: 24px;
+        text-align: center;
+        font-weight: normal;
+        padding: 0px;
+    }
+    .footer-img-div {
+        /* width: 21%; */
+        float: left;
+        margin: 84px 0px;
+        /* justify-content: center; */
+        padding-left: 39px;
+    }
+    .footer-list-div {
+        width: 57%;
+        font-size: 21px;
+        float: right;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 73px;
+    }
+    /* #### Live watch cards #### */
+    .cardz {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .cards{
+          display: flex;
+          flex-wrap: wrap;
+      }
+}
